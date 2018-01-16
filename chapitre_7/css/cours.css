@@ -1,0 +1,25 @@
+#cadre {
+    border : 1px solid red;
+}
+
+#bloc {
+    height : 40px;
+    width : 20px;
+    background : red;
+    position : relative;
+    left : 0px;
+    margin-left : -20px;
+    animation-name : deplacerBloc;
+    animation-duration : 7s;
+    animation-fill-mode : forwards;
+}
+
+@keyframes deplacerBloc {
+    
+    from  {
+        left : 0px;
+    }
+    to {
+        left : 100%;
+    }
+}
